@@ -5,6 +5,9 @@ __pycache__/
 # C extensions
 *.so
 
+serve.py
+wsgi.py
+
 # Distribution / packaging
 .Python
 env/
@@ -55,7 +58,6 @@ target/
 
 .DS_Store
 
-*.db
 *.log
 .idea/
 CTFd/static/uploads

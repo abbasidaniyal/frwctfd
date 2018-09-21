@@ -55,7 +55,6 @@ target/
 
 .DS_Store
 
-*.db
 *.log
 .idea/
 CTFd/static/uploads

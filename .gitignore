@@ -5,6 +5,9 @@ __pycache__/
 # C extensions
 *.so
 
+serve.py
+wsgi.py
+
 # Distribution / packaging
 .Python
 env/

@@ -27,7 +27,7 @@ this is for pip to work from anywhere
 
 3. Run the following command in cmd/terminal
 ```python 
-pip install <requirements from CTFd>
+python -m pip install flask flask-sqlalchemy flask-session flask-caching flask-migrate flask-script sqlalchemy sqlalchemy-utils passlib bcrypt six itsdangerous requests pymysql  gunicorn dataset mistune netaddr redis datafreeze gevent python-dotenv
 ```
 
 ### Get your IP Address
@@ -39,7 +39,7 @@ pip install <requirements from CTFd>
 ipconfig
 ```
 
-3. Copy your IPv4 address
+3. Copy your IPv4 address (your local IP address)
 
 ### Serve CTFd
 
